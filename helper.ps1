@@ -1,4 +1,4 @@
-﻿# PowerShell Helper Script for Modifying printerInstall.ps1 and printerUninstall.ps1
+# PowerShell Helper Script for Modifying printerInstall.ps1 and printerUninstall.ps1
 
 # Function to ensure path has .\ if not absolute
 Function Format-RelativePath($path) {
@@ -63,7 +63,7 @@ Function Display-MainMenu() {
 $randomNumber = Get-Random -Minimum 1 -Maximum 11
 if ($randomNumber -eq 1) {
     Display-AsciiArt
-    Start-Sleep 5
+    Start-Sleep 10
 }
 
 Display-MainMenu
