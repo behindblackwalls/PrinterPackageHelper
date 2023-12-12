@@ -63,7 +63,7 @@ Function Display-MainMenu() {
 $randomNumber = Get-Random -Minimum 1 -Maximum 11
 if ($randomNumber -eq 1) {
     Display-AsciiArt
-    Start-Sleep 10
+    Start-Sleep 20
 }
 
 Display-MainMenu
