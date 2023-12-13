@@ -11,7 +11,7 @@ Write-Host "Removing printer using PrintUI..."
 rundll32 printui.dll,PrintUIEntry /dl /n "$printerName"
 
 # Wait for the printer removal to complete
-Start-Sleep -Seconds 2
+Start-Sleep -Seconds 10
 
 # Remove printer port
 Write-Host "Removing printer port..."
